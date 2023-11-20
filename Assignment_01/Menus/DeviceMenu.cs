@@ -49,7 +49,7 @@ internal class DeviceMenu
 
             case "4":
                 Console.Clear();
-                Console.WriteLine("Provide the Id for the customer you wish to update.");
+                Console.WriteLine("Provide the Id for the device you wish to update.");
                 var respons2 = int.Parse(Console.ReadLine()!);
 
                 await UpdateAsync(respons2);
